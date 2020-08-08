@@ -1,4 +1,4 @@
-import React,{useState} from "react";
+import React,{useState} from "../Pages/Index/node_modules/react";
 
 export default function Button(){
     const [buttonText,setButtonText] = useState("Click me, please");

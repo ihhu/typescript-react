@@ -1,5 +1,5 @@
-import React,{Component} from "react";
-import Common from "@Components/Common.js";
+import React,{Component} from "../Pages/Index/node_modules/react";
+import Common from "../Pages/Index/node_modules/@Components/Common.js.js";
 
 class B extends Component{
     constructor(){

@@ -1,5 +1,5 @@
-import React from "react";
-import Common from "@Components/Common.js";
+import React from "../Pages/Index/node_modules/react";
+import Common from "../Pages/Index/node_modules/@Components/Common.js.js";
 function A(){
     return (
         <div>

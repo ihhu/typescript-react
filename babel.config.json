@@ -5,7 +5,8 @@
             "corejs":3
         }],
         "@babel/preset-react",
-        "linaria/babel"
+        "linaria/babel",
+        "@babel/preset-typescript"
     ],
     "plugins":[
         "@babel/plugin-proposal-class-properties",
@@ -13,6 +14,13 @@
         ["@babel/plugin-transform-runtime",{
             "useESModules":true,
             "corejs":3
-        }]
+        }],
+        [
+            "import",{
+                "libraryName": "antd",
+                "libraryDirectory": "es",
+                "style": true
+            }
+        ]
     ]
 }

@@ -1,5 +1,5 @@
-import React,{useState,useEffect} from "react";
-import {styled} from "linaria/react";
+import React,{useState,useEffect} from "../Pages/Index/node_modules/react";
+// import {styled} from "linaria/react";
 
 import logo from "@Style/Images/logo.svg";
 import GlobalStats from "@Components/GlobalStats.js";

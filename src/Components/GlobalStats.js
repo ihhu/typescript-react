@@ -1,4 +1,4 @@
-import React from "react";
+import React from "../Pages/Index/node_modules/react";
 
 function Stat({number,color}){
     return <span style={{color:color,fontWeight:"bold"}}>{number}</span>

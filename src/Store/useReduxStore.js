@@ -1,4 +1,4 @@
-import React,{useContext,useReducer} from "react";
+import React,{useContext,useReducer} from "../Pages/Index/node_modules/react";
 
 const Store = React.createContext();
 const useReduxState = ()=>useContext(Store);

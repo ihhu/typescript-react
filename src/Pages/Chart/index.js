@@ -1,5 +1,5 @@
-import React,{ useState, useEffect } from 'react'
-import { render } from "react-dom";
+import React,{ useState, useEffect } from '../Index/node_modules/react'
+import { render } from "../Index/node_modules/react-dom";
 
 import GlobalStats from "@Components/GlobalStats.js";
 import CountriesChart from '@Components/Chart/CountriesChart.js';

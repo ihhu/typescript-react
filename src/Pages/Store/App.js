@@ -1,4 +1,4 @@
-import React from "react";
+import React from "../Index/node_modules/react";
 import {inject,useReduxState} from "@Store/index.js";
 
 const App = inject((props)=>{

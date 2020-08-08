@@ -13,9 +13,9 @@ const PATHS={
 }
 
 const pages = {
-    main:{
+    index:{
         // page 的入口
-        entry:`${PATHS.entry}Pages/Main/index.js`,
+        entry:`${PATHS.entry}Pages/Index/index.tsx`,
         // template 中的 title 标签需要是 <title><%= htmlWebpackPlugin.options.title %></title>
         title:"主页",
         // 在 dist/index.html 的输出
@@ -24,18 +24,6 @@ const pages = {
         template:`${PATHS.views}Index.ejs`
         // 提取出来的通用 chunk 和 vendor chunk。
         // chunks:[]
-    },
-    chart:{
-        entry:`${PATHS.entry}Pages/Chart/index.js`,
-        title:"图表",
-        filename:"chart.html",
-        template:`${PATHS.views}Index.ejs`
-    },
-    store:{
-        entry:`${PATHS.entry}Pages/Store/index.js`,
-        title:"ReduxStore",
-        filename:"store.html",
-        template:`${PATHS.views}Index.ejs`
     }
 }
 
@@ -68,7 +56,8 @@ const config = {
         },
         modules: [
             PATHS.entry,PATHS.node_modules
-        ]
+        ],
+        extensions: ['.ts', '.tsx', '.js', '.json']
     },
     pages,
     hash:"contenthash:5",
